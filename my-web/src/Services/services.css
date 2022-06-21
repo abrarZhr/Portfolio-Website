@@ -1,0 +1,60 @@
+.services{
+    /* padding: 0rem 3rem 0rem 3rem; */
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+    margin-bottom:13rem ;
+    margin-top: 9rem;  
+}
+
+.s-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap:3px;
+    
+}
+
+.s-left>:nth-child(1){
+    color:var(--orange);
+    font-size: 3rem;
+    font-weight:bold ;
+  
+    
+}
+
+.s-left>:nth-child(2){
+    font-weight: 100px;
+    font-size: 14px;
+    color: gray;
+}
+
+
+.s-right{
+    position: absolute;
+}
+
+.s-right>*{
+    position: relative;
+}
+
+.s-right>:nth-child(1){
+
+    bottom: 10px;
+    left: 850px;
+    
+}
+
+.s-right>:nth-child(2){
+    top:10px;
+    left:500px;
+
+}
+
+.s-right>:nth-child(3){
+    bottom:100px;
+    left:800px;
+
+}
+
+

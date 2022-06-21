@@ -1,0 +1,174 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    /* margin-top: 6rem; */
+    padding: 0rem 3rem 0rem 3rem;
+    
+    
+}
+
+
+
+.name span{
+    display: flex;
+    
+}
+
+.name>:nth-child(1){
+    color: rgb(19, 19, 20);
+    font-size: 3rem;
+    font-weight:bold ;
+}
+
+.name>:nth-child(2){
+    color:var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.name>:nth-child(3){
+    font-weight: 100;
+    font-size: 14px;
+    color: gray;
+
+}
+
+
+.left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    gap: 1rem;
+   
+}
+
+.s-button{
+    position: relative;
+    right: 100px;
+    height: 2rem;
+    width: 8rem;
+    margin-top: 1rem;
+
+}
+
+
+.icons{
+    position: relative;
+    right: 453px;
+    margin-top: 1rem;
+    font-size:50px;
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+    color: var(--orange);
+}
+
+.icons>*{
+    transform: scale(0.5);   
+}
+
+.i-right{
+    position: relative;
+    flex: 1;
+}
+
+ .i-right>*{
+    position: absolute;
+    z-index:222;
+ }
+
+ /* image */
+ .i-right>:nth-child(3){
+     transform: scale(0.70);
+     right:20%;
+     top:-9%;
+     border-radius: 100%;
+
+ }
+/* pink */
+ .i-right>:nth-child(2){
+  top:80%;
+  transform: scale(0.90);
+  left:-3rem;
+   
+
+ 
+ }
+ /* yallow */
+
+ .i-right>:nth-child(1){
+     transform: scale(-0.69);
+     left:-15%;
+     top:-9%;
+  
+     
+ }
+
+ .floatingDiv>*{
+     justify-content: space-around;
+     display: flex;
+     background-color: white;
+     box-shadow: 0px 19px 60px rgb(0 0 0 / 8%);
+     border-radius: 17px;
+     align-items: center;
+     padding: 0px 30px 0px 30px;
+     height: 4.5rem;
+     gap: 5px;  
+ }
+ .floatingDiv>img{
+    position: relative;
+    right:170px;
+    top:-50px;
+    transform:scale(2);
+    padding: 0px;
+ }
+
+
+ .floatingDiv>span{
+     font-family: sans-serif;
+     font-size: 20px;
+ }
+
+ .floatingDiv>:nth-child(1){
+    position: relative;
+    bottom: -40px;
+    left:170%;
+ }
+
+ .floatingDiv>:nth-child(2){
+     position: relative;
+     bottom:-400px;
+     right: 100%;
+ }
+ .floatingDiv>span>a {
+     color: var(--orange);
+     transform: scale(0.99);
+ }
+
+ .blur{
+     position: absolute;
+     width: 40rem;
+     height: 20rem;
+     border-radius: 50%;
+     background-color: #edd0ff;
+     z-index: -9;
+     top:-1%;
+     left: 56%;
+     filter:blur(72px) ;
+
+ }
+
+ .i-blur{
+
+    position: absolute;
+    width: 50rem;
+    height: 20rem;
+    border-radius: 50%;
+    top:40%;
+    z-index: -9;
+    right: 50%;
+    filter:blur(72px) ;
+
+ }
+
+ 

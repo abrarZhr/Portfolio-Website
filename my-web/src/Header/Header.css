@@ -1,0 +1,54 @@
+.NavBar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+ 
+    
+}
+
+.left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+    flex: 10;
+
+}
+
+.list ul{
+    display: flex;
+    gap: 50px;
+    margin-right: 400px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list ul li:hover {
+    cursor: pointer;
+    color: #f5c32c;
+}
+
+.n-button{
+    flex: 2;
+
+}
+
+
+
