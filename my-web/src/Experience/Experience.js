@@ -6,11 +6,12 @@ import express from '../images/express.png';
 import mongodb from '../images/mongodb.png';
 import html from '../images/html.png';
 import {motion} from 'framer-motion';
+import {Link} from 'react-scroll'
 
 function Experience() {
 
   return (
-    <div className='works'>
+    <div className='works' id='Experience'>
         <div className='e-left'>
             <span>Working on </span>
             <span>all these technicals</span>
@@ -23,8 +24,8 @@ function Experience() {
           
             
         </div>
-        <div className='blur' style={{background:" rgb(244, 246, 178)" , top:"100rem" , left:"0rem" }}></div>
-        <div className='blur' style={{background:" pink" , top:"100rem" ,left:"100vh" }}></div>
+        <div className='blur' style={{background:" rgb(244, 246, 178)" , top:"100rem" , left:"-10rem" }}></div>
+        <div className='blur' style={{background:" pink" , top:"120rem" ,left:"-30vh" }}></div>
 
         <div className='e-right'>
         <motion.div 

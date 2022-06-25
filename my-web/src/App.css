@@ -67,3 +67,15 @@
   color:var(--orange) ;
   border: 1px solid var(--orange)
 }
+
+@media screen and (min-width:768px)and (max-width:1023px){
+.App{
+  padding:0.5 ;
+}  
+}
+
+@media screen and (max-width:767px) {
+  .App{
+    padding: 0.5;
+  }
+}

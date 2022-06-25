@@ -5,6 +5,9 @@ import Services from './Services/Services';
 import Experience from './Experience/Experience'
 import {themeContext} from './context'
 import { useContext } from 'react';
+import Portfolio from './Portfolio/Portfolio';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
     <Intro/>
     <Services/>
     <Experience/>
+    <Portfolio/>
+    <Contact/>
+    <Footer/>
     
     
     </div>

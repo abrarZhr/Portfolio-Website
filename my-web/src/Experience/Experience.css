@@ -121,4 +121,112 @@ z-index: -1;
 }
 
 
+
+@media screen and (min-width:768px)and (max-width:1023px){
+    .works{
+        /* padding: 0 3rem 0 3rem; */
+        display:  flex;
+        height: 60vh;
+        flex: 1;
+      
+      }
+
+      .e-left {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 40px;
+     
+    }
+
+    .blur{
+        position: relative;
+        width: 50rem;
+        height: 20rem;
+        border-radius: 50%;
+        top:40%;
+        z-index: -9;
+        right: 50%;
+        filter:blur(72px) ;
+
+    }
+
+    
+
+     }
+     
+     @media screen and (max-width:767px) {
+        .works{
+            /* padding: 0 3rem 0 3rem; */
+            display:  flex;
+            height: 150vh;
+           
+          }
+    
+          .e-left {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            right: 20px;
+         
+        }
+    
+        .blur{
+            position: relative;
+            width: 50rem;
+            height: 20rem;
+            border-radius: 50%;
+            top:40%;
+            z-index: -9;
+            right: 50%;
+            filter:blur(72px) ;
+    
+        }
+
+        .e-right{
+            position: relative;
+            bottom:-35rem;
+            left:-18rem;
+        
+            
+        }
+
+        
+.e-mainCircle>*{
+    position: absolute;
+}
+
+.e-mainCircle>:nth-child(1){
+    top:-3rem;
+    left:6rem;
+}
+
+.e-mainCircle>:nth-child(2){
+    left:-1rem;
+    top:5rem;
+}
+
+.e-mainCircle>:nth-child(3){
+    top:5rem;
+    left:7rem;
+    
+}
+
+.e-mainCircle>:nth-child(4){
+    top:5rem;
+    left:15rem;
+}
+
+.e-mainCircle>:nth-child(5){
+    top:14rem;
+    left:7rem;
+}
+
+      
+    
+        
+     }
+ 
+
+
  

@@ -1,10 +1,11 @@
 .services{
     /* padding: 0rem 3rem 0rem 3rem; */
     display: flex;
-    height: 90vh;
+    height: 110vh;
     justify-content: space-between;
     margin-bottom:13rem ;
-    margin-top: 9rem;  
+    margin-top: 9rem; 
+  
 }
 
 .s-left {
@@ -12,6 +13,7 @@
     flex-direction: column;
     position: relative;
     gap:3px;
+   
     
 }
 
@@ -30,31 +32,119 @@
 }
 
 
-.s-right{
+.se-right{
     position: absolute;
-}
-
-.s-right>*{
-    position: relative;
-}
-
-.s-right>:nth-child(1){
-
-    bottom: 10px;
-    left: 850px;
     
 }
 
-.s-right>:nth-child(2){
+.se-right>*{
+    position: relative;
+    
+}
+
+.se-right>:nth-child(1){
+
+    bottom: -100px;
+    left: 850px;
+   
+    
+}
+
+.se-right>:nth-child(2){
     top:10px;
     left:500px;
 
 }
 
-.s-right>:nth-child(3){
+.se-right>:nth-child(3){
     bottom:100px;
     left:800px;
+    
 
 }
 
+
+@media screen and (min-width:768px)and (max-width:1023px){
+ 
+    .services{
+        /* padding: 0rem 3rem 0rem 3rem; */
+        display: flex;
+        height: 110vh;
+        justify-content: space-between;
+        margin-bottom:13rem ;
+        margin-top: 9rem; 
+
+       
+      
+    }
+
+    .s-left {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        gap:3px;
+
+    }
+
+    
+.se-right>:nth-child(1){
+
+    bottom: -100px;
+    left: 630px;    
+}
+
+.se-right>:nth-child(2){
+    top:10px;
+    left:400px;
+
+}
+
+.se-right>:nth-child(3){
+    bottom:100px;
+    left:600px;
+}
+
+
+}
+
+@media screen and (max-width:767px) {
+
+    .services{
+        /* padding: 0rem 3rem 0rem 3rem; */
+        display: flex;
+        height: 150vh;
+        justify-content: space-between;
+        margin-bottom:13rem ;
+        margin-top: 9rem; 
+        
+    }
+
+    .s-left {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        gap:3px;
+
+    }
+
+    
+.se-right>:nth-child(1){
+
+    bottom: -300px;
+    left: 35px;    
+}
+
+.se-right>:nth-child(2){
+   top:20rem;
+   left:35px;
+
+}
+
+.se-right>:nth-child(3){
+    bottom:-21rem;
+    left:35px;
+}
+
+
+}
 

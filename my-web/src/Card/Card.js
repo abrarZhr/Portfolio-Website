@@ -3,7 +3,7 @@ import './card.css'
 
 const Card = ({emoje , heading , detail} ) => {
   return (
-    <div className='card'>
+    <div className='Card'>
         <img src={emoje}/>
         <span>{heading}</span>
         <span>{detail}</span>

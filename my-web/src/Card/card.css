@@ -1,21 +1,33 @@
-.card{
+.Card{
 width: 10rem;
-  height: 13rem;
-   /* position: absolute; */
+  height: 18rem;
    display: flex;
    flex-direction: column;
-   gap: 1rem;
+   gap: 1px;
    align-items: center;
+   justify-content: center;
    width: 10rem;
    text-align: center;
    background: rgba(255 , 255 , 255 , 0.26);
    border: 1px solid var(--orange);
    box-shadow: 0px 19px 60px rgba(237, 229, 75, 0.08);
    border-radius: 20px;
-   padding: 0px 26px 2rem 26px;
+   padding: 10px;
+
 }
 
 .card>img{
     width: 100px;
     color: rgb(244, 246, 178);
 }
+
+
+@media screen and (min-width:768px)and (max-width:1023px){
+ 
+
+
+   }
+   
+   @media screen and (max-width:767px) {
+   
+   }

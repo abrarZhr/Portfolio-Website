@@ -1,0 +1,96 @@
+.Contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 88vh;
+    margin-top:8rem ;
+}
+
+.c-right{
+    display: flex;
+    position: relative;
+    left: 10rem;
+    flex: 1;
+    justify-content: center;
+    
+}
+
+.c-left>:nth-child(1){
+    color:var(--orange) ;
+    font-size: 3rem;
+    font-weight:bold ;
+}
+
+
+
+.c-right .Form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 16px;
+   
+    
+    
+}
+
+textarea{
+    height: 8rem!important;
+    
+}
+
+@media screen and (min-width:768px)and (max-width:1023px){
+    .c-right .Form{
+        display: flex;
+       position: relative;
+       right:10rem;
+    }
+
+    
+
+     }
+     
+     @media screen and (max-width:767px) {
+        
+
+        .Contact-form{
+            padding: 0 3rem 0 3rem;
+            display: flex;
+            height: 100vh;
+            margin-top:8rem ;
+        }
+
+
+        .c-right{
+            display: flex;
+            position: relative;
+            left: 10rem;
+           
+            
+        }
+
+        .c-right .Form{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            position: relative;
+            right:25rem;
+            top:10rem;
+        }
+
+        .c-left{
+            position: relative;
+            bottom: 8rem;
+        }
+     }
+     
+
