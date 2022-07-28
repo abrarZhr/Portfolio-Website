@@ -2,15 +2,17 @@
     display: flex;
     height: 77vh;
     /* margin-top: 6rem; */
-    padding: 0rem 3rem 0rem 3rem;
-    
+    padding: 0rem 3rem 0rem 3rem;   
+ 
+   
     
 }
 
-
-
 .name span{
     display: flex;
+   position: relative;
+   top:40%;
+
     
 }
 
@@ -44,10 +46,12 @@
 
 .s-button{
     position: relative;
-    right: 100px;
+    right: 10px;
     height: 2rem;
     width: 8rem;
     margin-top: 1rem;
+    top:40%;
+
 
 }
 
@@ -61,6 +65,7 @@
     display: flex;
     flex-direction: column;
     color: var(--orange);
+    top:35%
 }
 
 .icons>*{
@@ -176,103 +181,133 @@
  @media screen and (min-width:768px)and (max-width:1023px){
     .intro{
         display: flex;
-        width: 150vh;
-        padding: 0rem 3rem 0rem 3rem;
-        
-         
-    }
-
-    .floatingDiv>*{
-        display: flex;
+        width: 70vh;  
        
     }
-
     .left{
         display: flex;
-        position: relative;
-        flex: 1;
-        gap: 1rem;
-        right: 60px;
-       
+        align-self: flex-end;
+        gap: 15%;
+        height: 50%;
     }
 
-    .icons{
-        position: relative;
-        right: 390px;
-        margin-top: 1rem;
-        font-size:50px;
-        cursor:pointer;
-        display: flex;
-        flex-direction: column;
-        color: var(--orange);
-    }
 
     .floatingDiv>:nth-child(1){
         position: relative;
-        bottom: 40px;
-        left:170%;
+        left:90%;
       
      }
 
     .floatingDiv>:nth-child(2){
         position: relative;
-        bottom: 40px;
-        left:17%;
+        right:200%;
+   
       
      }
-    
 
+        /* pink */
+        .i-right>:nth-child(2){
+            top:0%;
+            transform: scale(0.90);
+            left:3rem;
+             
+           }
+
+            /* yallow */
+
+ .i-right>:nth-child(1){
+    transform: scale(-0.69);
+    left:-50%;
+    top:-9%;
+}
 
      }
+
+     /* mobile */
      
      @media screen and (max-width:767px){
 
-        .intro{
-            display: flex;
-            width: 150vh;
-            padding: 0rem 3rem 0rem 3rem;
-            
+       
+        .left{
+         align-self: flex-end;
+         height:5vh ;
+         left:20px;
+         gap: 80%;
+        
              
         }
-    
-        .floatingDiv>*{
-            display: flex;
-           
+
+        .intro{
+            display: flex; 
+         
         }
-    
-        .left{
+
+        .i-right{
             display: flex;
-            position: relative;
             flex: 1;
-            gap: 1rem;
-            right: 60px;
+            
+        }
+        
+        
+         /* image */
+         .i-right>:nth-child(3){
+             transform: scale(0.70);
+             position: relative;
+             left:-50%;
+             top:-9%;
+             border-radius: 100%;
+             border: #edd0ff solid;
+
+        
+         }
+        /* pink */
+         .i-right>:nth-child(2){
+          top:0%;
+          transform: scale(0.90);
+          left:-3rem;
+           
+        
+         
+         }
+         /* yallow */
+        
+         .i-right>:nth-child(1){
+             transform: scale(-0.69);
+             left:-15%;
+             top:-9%; 
+         }
+
+         .s-button{
+            position: relative;
+            right: 5px;
+            height: 2rem;
+            width: 8rem;
+            margin-top: 1rem;
            
         }
+         
+        
+.name span{
+    display: flex;
+    justify-content: center;
+
     
-        .icons{
-            position: relative;
-            right: 390px;
-            margin-top: 1rem;
-            font-size:50px;
-            cursor:pointer;
-            display: flex;
-            flex-direction: column;
-            color: var(--orange);
-        }
+}
+
+         
     
-        .floatingDiv>:nth-child(1){
-            position: relative;
-            bottom: 40px;
-            left:170%;
+        
+    
+     
           
-         }
-    
-        .floatingDiv>:nth-child(2){
-            position: relative;
-            bottom: 40px;
-            left:17%;
-          
-         }
+
+
+
+
+
+
+
+
      
      }
  

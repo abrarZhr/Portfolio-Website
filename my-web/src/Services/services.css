@@ -69,7 +69,7 @@
     .services{
         /* padding: 0rem 3rem 0rem 3rem; */
         display: flex;
-        height: 110vh;
+        height: 70vh;
         justify-content: space-between;
         margin-bottom:13rem ;
         margin-top: 9rem; 
@@ -107,16 +107,16 @@
 
 }
 
+/* mobail */
+
 @media screen and (max-width:767px) {
 
     .services{
         /* padding: 0rem 3rem 0rem 3rem; */
         display: flex;
-        height: 150vh;
-        justify-content: space-between;
-        margin-bottom:13rem ;
-        margin-top: 9rem; 
-        
+        height: 80vh;
+        bottom: 100%;
+       
     }
 
     .s-left {
@@ -124,6 +124,7 @@
         flex-direction: column;
         position: relative;
         gap:3px;
+        top: 10%;
 
     }
 

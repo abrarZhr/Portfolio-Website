@@ -13,7 +13,7 @@ const Header = () => {
   return (
     
     <div className='NavBar' id='Header'>
-    <div className='left'>
+    <div className='left-n'>
     <did className="name">Abrar</did>
     <Toggle/>
 

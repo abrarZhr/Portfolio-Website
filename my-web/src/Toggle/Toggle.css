@@ -21,3 +21,15 @@
     background: var(--orange);
     position: absolute;
 }
+
+ /* mobile */
+    
+ @media screen and (max-width:767px) {
+    .toggle{
+        bottom: -10%;
+        display: flex;
+     
+    }
+
+    
+}

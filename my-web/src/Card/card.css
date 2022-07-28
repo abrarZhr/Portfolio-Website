@@ -1,5 +1,5 @@
 .Card{
-width: 10rem;
+  width: 10rem;
   height: 18rem;
    display: flex;
    flex-direction: column;
@@ -13,6 +13,7 @@ width: 10rem;
    box-shadow: 0px 19px 60px rgba(237, 229, 75, 0.08);
    border-radius: 20px;
    padding: 10px;
+   border: solid pink 3px;
 
 }
 
@@ -23,11 +24,26 @@ width: 10rem;
 
 
 @media screen and (min-width:768px)and (max-width:1023px){
+
+  
+  .Card{
+    position: relative;
+    right:200px;
+    top:100px;
+    
+  }
  
 
 
    }
+
+   /* mobile */
    
    @media screen and (max-width:767px) {
+    .Card{
+      position: relative;
+      left: 100%;
+      
+    }
    
    }

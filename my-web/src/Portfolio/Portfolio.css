@@ -41,6 +41,8 @@
 @media screen and (min-width:768px)and (max-width:1023px){
   
     }
+
+    /* mobail */
     
     @media screen and (max-width:767px) {
 
@@ -48,13 +50,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 70vh;
+     
       }
 
       .Portfolio-slider {
         margin-top:3rem;
         width: 300%;
-        border: rebeccapurple solid;
+        height: 30vh;
+     
        
         
     

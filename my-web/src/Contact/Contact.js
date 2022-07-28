@@ -3,8 +3,6 @@ import React, { useState  } from 'react';
 import {useRef} from 'react'
 import emailjs from '@emailjs/browser';
 
-import Alert from 'react-bootstrap/Alert'
-
 
 const Contact = () =>  {
 

@@ -6,7 +6,7 @@
     
 }
 
-.left{
+.left-n{
     flex: 1;
     align-items: center;
     display: flex;
@@ -50,29 +50,38 @@ ul{
 
 }
 
-@media screen and (min-width:768px)and (max-width:1023px){
-  .list{
-    flex: 10px;
 
-}
-.name{
-
-position: relative;
-left: 10px;
-}
-
+    
+ @media screen and (min-width:768px)and (max-width:1023px){
+    .NavBar{
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+
+    
+.n-button{
+    display: flex;
+  
+    position: relative;
+    right: 100%;
+ 
+
+}
+
+
+ }
+
+    /* mobile */
     
     @media screen and (max-width:767px) {
-
-        .list{
-            flex: 50px;
-        
-        }
-        .name{
-        
-        position: relative;
-        left: 10px;
+        .left-n .name{
+         
+            display: flex;
+            
+         
+     
         }
     
     }
